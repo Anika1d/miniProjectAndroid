@@ -47,10 +47,14 @@ class NewsAdapter(
         holder.itemView.tag = article
         val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
         with(holder.binding) {
-            if (article.urlToImage != null)
+            if (article.urlToImage != null) {
+                shimmerImg.startShimmer()
                 Picasso.get().load(article.urlToImage).into(imageView)
-            else
+                shimmerImg.stopShimmer()
+            } else
                 imageView.setImageResource(R.drawable.ic_default_img)
+            shimmerImg.visibility = View.GONE
+            imageView.visibility = View.VISIBLE
             tittleNews.text = article.title
             newsDate.text =
                 LocalDate.parse(article.publishedAt.substring(0, 10), formatter)
