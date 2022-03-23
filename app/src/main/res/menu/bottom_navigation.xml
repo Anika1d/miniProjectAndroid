@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/apple"
+        android:title="@string/apple"
+    />
+    <item
+        android:id="@+id/business"
+        android:title="@string/business_usa"
+      />
+    <item
+        android:id="@+id/techcrunch"
+        android:title="@string/techcrunch"
+        />
+    <item
+        android:id="@+id/tesla"
+        android:title="@string/tesla" />
+    <item
+        android:id="@+id/journal"
+        android:title="@string/wall_street"
+    />
+</menu>
