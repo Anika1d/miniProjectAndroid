@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestWork</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="techcrunch">TechCrunch</string>
+    <string name="tesla">Tesla</string>
+    <string name="wall_street">Wall Street</string>
+    <string name="business_usa">Business USA</string>
+    <string name="apple">Apple</string>
+</resources>
